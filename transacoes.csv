@@ -1,0 +1,31 @@
+id,data,cliente_id,tipo,valor,descricao,categoria
+1,2026-01-05,CLI001,credito,3500.00,Salário janeiro,salario
+2,2026-01-12,CLI002,debito,180.50,Supermercado,compra
+3,2026-01-18,CLI001,debito,220.00,Internet,conta
+4,2026-01-22,CLI003,credito,1200.00,Reembolso,transferencia
+5,2026-01-28,CLI004,debito,55.00,Farmácia,compra
+6,2026-02-03,CLI002,credito,2800.00,Salário fevereiro,salario
+7,2026-02-08,CLI001,debito,320.00,Conta de luz,conta
+8,2026-02-14,CLI003,credito,15000.00,Transferência de alto valor,transferencia
+9,2026-02-18,CLI002,debito,99.90,Streaming,assinatura
+10,2026-02-25,CLI005,debito,140.00,Padaria,compra
+11,2026-03-01,CLI001,credito,3500.00,Salário março,salario
+12,2026-03-10,CLI003,debito,450.00,Eletrônicos,compra
+13,2026-03-15,CLI002,debito,75.50,Assinatura música,assinatura
+14,2026-03-20,CLI004,credito,12000.00,Investimento recebido,transferencia
+15,2026-03-28,CLI005,credito,800.00,Freelance,transferencia
+16,2026-04-02,CLI001,credito,3500.00,Salário abril,salario
+17,2026-04-07,CLI004,debito,890.00,Material de escritório,compra
+18,2026-04-12,CLI002,credito,2500.00,Salário abril,salario
+19,2026-04-18,CLI003,debito,210.30,Água e esgoto,conta
+20,2026-04-22,CLI005,credito,18500.00,Transferência internacional,transferencia
+,2026-01-10,CLI001,debito,100.00,ID vazio,compra
+abc,2026-01-11,CLI002,debito,50.00,ID não numérico,compra
+21,2026-02-01,,debito,200.00,Sem cliente,transferencia
+22,2026/02/10,CLI001,debito,80.00,Data com barra,compra
+23,2026-13-40,CLI002,credito,90.00,Data inexistente,compra
+24,2026-03-05,CLI003,pix,300.00,Tipo inválido,transferencia
+25,2026-03-08,CLI004,debito,abc,Valor não numérico,compra
+26,2026-04-01,CLI001,debito,-50.00,Valor negativo,compra
+27,2026-04-05,CLI002,credito,0,Valor zero,salario
+1,2026-01-05,CLI001,credito,3500.00,Registro duplicado,salario
